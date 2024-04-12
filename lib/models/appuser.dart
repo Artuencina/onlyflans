@@ -1,12 +1,12 @@
 //Modelo de usuario
-class User {
+class AppUser {
   final String? uid;
   final String email;
   final String userName;
   final String profileUrl;
   final String? bio;
 
-  const User({
+  const AppUser({
     this.uid,
     required this.email,
     required this.userName,

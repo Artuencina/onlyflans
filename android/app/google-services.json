@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537187718876",
+    "project_id": "onlyflans-ddaa3",
+    "storage_bucket": "onlyflans-ddaa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537187718876:android:fa354a9f862ed4adf54619",
+        "android_client_info": {
+          "package_name": "com.artwoencina.onlyflans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537187718876-bdssrd9gl7uch49geo02ddd3bk1up66g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu9zTKebL2k0AD7z6K7MH5c-_SgwXfNe4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537187718876-bdssrd9gl7uch49geo02ddd3bk1up66g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
