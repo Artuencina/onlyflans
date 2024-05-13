@@ -14,7 +14,7 @@ class PostCubit extends Cubit<PostState> {
   void getPosts() async {
     try {
       final posts = await repository.getPosts(5);
-      print(posts.length);
+
       if (posts.isEmpty) {
         emit(PostEmpty(posts: posts));
       } else {

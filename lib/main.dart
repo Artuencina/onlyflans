@@ -5,7 +5,7 @@ import 'package:onlyflans/bloc/comment/comment_qubit.dart';
 import 'package:onlyflans/bloc/post/post_qubit.dart';
 import 'package:onlyflans/core/theme/theme.dart';
 import 'package:onlyflans/firebase_options.dart';
-import 'package:onlyflans/screens/reel_screen.dart';
+import 'package:onlyflans/screens/login_screen.dart';
 import 'dependency_injection.dart';
 
 void main() async {
@@ -33,7 +33,7 @@ void main() async {
               create: (context) => getIt(),
             ),
           ],
-          child: const ReelScreen(),
+          child: const LoginScreen(),
         )),
   );
 }

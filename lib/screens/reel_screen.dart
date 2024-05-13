@@ -31,8 +31,14 @@ class _ReelScreenState extends State<ReelScreen> {
                   },
                 );
               } else if (state is PostEmpty) {
-                return const Center(
-                  child: Text("No hay posts, sé el primero en crear uno!"),
+                return Center(
+                  child: Text(
+                    "No hay posts, sé el primero en crear uno!",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium!
+                        .copyWith(color: Colors.white),
+                  ),
                 );
               }
               return const Center(

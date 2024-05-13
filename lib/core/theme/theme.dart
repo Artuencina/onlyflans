@@ -8,8 +8,8 @@ final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
   ),
   primaryColor: Colors.amber[800],
-  textTheme: GoogleFonts.robotoTextTheme(),
-  fontFamily: GoogleFonts.roboto().fontFamily,
+  textTheme: GoogleFonts.miriamLibreTextTheme(),
+  fontFamily: GoogleFonts.miriamLibre().fontFamily,
   iconButtonTheme: IconButtonThemeData(
       style: ButtonStyle(
     textStyle: MaterialStatePropertyAll(
@@ -27,6 +27,14 @@ final ThemeData darkTheme = ThemeData(
       brightness: Brightness.dark,
       background: Colors.black),
   primaryColor: Colors.amber[800],
-  textTheme: GoogleFonts.robotoTextTheme(),
-  fontFamily: GoogleFonts.roboto().fontFamily,
+  textTheme: GoogleFonts.miriamLibreTextTheme(),
+  fontFamily: GoogleFonts.miriamLibre().fontFamily,
+  iconButtonTheme: IconButtonThemeData(
+      style: ButtonStyle(
+    textStyle: MaterialStatePropertyAll(
+      GoogleFonts.roboto().copyWith(
+        color: Colors.amber,
+      ),
+    ),
+  )),
 );
